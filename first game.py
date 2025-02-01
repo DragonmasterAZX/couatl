@@ -9,7 +9,6 @@ class RectangleGroup():
    # RectangleGroup class providing a means to collect rectangles of a given type and operate on them as a group
    def __init__(self):
       self.items = []
-      bottoms=1
    def add(self, rectInstance):
       self.items.append(rectInstance)
       self._lastCreated = rectInstance
