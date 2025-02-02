@@ -29,6 +29,7 @@ class BasicPlatform(pygame.Rect):
       super().__init__(height, width, xcordinate, ycordinate)
       self.colour = 0, 255, 255 
       self.hasLeftScreen = False
+      print('bumcheeks')
    
 class MovingPlatform(BasicPlatform):
    
